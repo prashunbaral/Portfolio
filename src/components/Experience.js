@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import contactImg from '../assets/img/contact-img.svg';
-import { ProjectCard } from "./ProjectCard";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

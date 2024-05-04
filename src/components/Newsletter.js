@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
 import facebook from '../assets/img/facebook.svg';
 import instagram from '../assets/img/instagram.svg';
