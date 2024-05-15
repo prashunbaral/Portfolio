@@ -22,16 +22,19 @@ export const Projects = () => {
       title: "CarHub",
       description: "Find cars with their details to rent  or buy.",
       imgUrl: projImg1,
+      link: "https://github.com/prashunbaral/CarHub"
     },
     {
       title: "Expense Tracking System",
       description: "Track and manage your expenses",
       imgUrl: projImg2,
+      link: "https://github.com/prashunbaral/Expense-Tracker"
     },
     {
       title: "To-Do List Application",
       description: "Keep track of your to-dos",
       imgUrl: projImg3,
+      link: "https://github.com/prashunbaral/To-Do-List-App"
     },
   ];
 
@@ -40,31 +43,37 @@ export const Projects = () => {
       title: "Penetration Testing Report",
       description: "Exploiting the leading cybersecurity vulnerabilities",
       imgUrl: projImg4,
+      link: "https://medium.com/@prashunbaral/penetration-testing-uncovers-web-application-weaknesses-time-to-patch-the-leaks-aa96171d7330"
     },
     {
       title: "Cross Site Scripting Report",
       description: "Delve into XSS with BeEF Framework",
       imgUrl: projImg5,
+      link: "https://medium.com/@prashunbaral/cross-site-scripting-xss-exploitation-2f37c4b9010d"
     },
     {
       title: "Exploring Android Exploits",
       description: "Android Exploit with ngrok and MSFvenom",
       imgUrl: projImg6,
+      link: "https://medium.com/@prashunbaral/exploring-android-exploits-f0071aa44dd4"
     },
     {
-      title: "Security Misconfiguration",
+      title: "The Peril of Misconfiguration",
       description: "Report on an OWASP-10 vulnerability, Security Misconfiguration",
       imgUrl: projImg7,
+      link: "https://medium.com/@prashunbaral/the-peril-of-misconfiguration-how-security-oversights-create-vulnerabilities-42a9b9af5e50"
     },
     {
-      title: "Website Security",
-      description: "Report on securing a website",
+      title: "Bulding a Secure Fortress",
+      description: "Report on website security",
       imgUrl: projImg8,
+      link: "https://medium.com/@prashunbaral/building-a-secure-fortress-essential-strategies-for-website-protection-521b224d186d"
     },
     {
       title: "3-Tier Network Architecture",
       description: "Network Architecture with Port Security using Cisco Packet Tracer",
       imgUrl: projImg9,
+      link: "https://medium.com/@prashunbaral/3-tier-network-architecture-a6a458f58a3c"
     },
   ]
 
@@ -73,6 +82,7 @@ export const Projects = () => {
       title: "Game Technology Project",
       description: "3D Game with Unity comprising of missions",
       imgUrl: projImg10,
+      link: "https://github.com/prashunbaral/Operation-Gearhead"
     },
   ]
 
@@ -150,7 +160,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }

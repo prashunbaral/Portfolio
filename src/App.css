@@ -595,6 +595,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .newsletter-bx .connect-icons {
   margin-left: -180px;
 }
+
+.newsletter-bx .connect-icons .column:hover {
+  scale: 1.3;
+  transition: all ease-in-out;
+  transition-duration: 0.3s;
+}
 .footer img {
   width: 26%;
 }
